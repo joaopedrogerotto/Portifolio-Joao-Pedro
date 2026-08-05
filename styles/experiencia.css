@@ -1,0 +1,50 @@
+.experiencias{
+    width: 90%;
+    max-width: 1000px;
+    margin: 120px auto;
+}
+
+.card-experiencia{
+    margin-top:40px;
+    padding:35px;
+    border-radius:20px;
+    background:rgba(255,255,255,.03);
+    border:1px solid rgba(255,255,255,.08);
+    backdrop-filter:blur(10px);
+    transition:.3s;
+}
+
+.card-experiencia:hover{
+    transform:translateY(-8px);
+    border-color:#5EA8FF;
+    box-shadow:0 0 30px rgba(94,168,255,.18);
+}
+
+.card-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-bottom:25px;
+}
+
+.card-header h3{
+    font-family:"Space Grotesk",sans-serif;
+    font-size:1.7rem;
+    margin-bottom:8px;
+}
+
+.card-header h4{
+    color:#5EA8FF;
+    font-weight:500;
+}
+
+.tempo{
+    color:#A0AEC0;
+    font-size:.95rem;
+}
+
+.card-experiencia ul{
+    padding-left:20px;
+    color:#BFC7D5;
+    line-height:2;
+}
