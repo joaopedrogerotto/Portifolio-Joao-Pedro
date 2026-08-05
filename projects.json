@@ -1,0 +1,53 @@
+[
+    {
+        "nome": "Gastrolink",
+        "github": "https://github.com/joaopedrogerotto/GASTROLINK",
+        "tecnologia":[
+            "C#",
+            "TypeScript",
+            "ASP.NET",
+            "T-SQL",
+            "CSS",
+            "SQL Server",
+            "Docker"
+        ]
+    },
+    {
+        "nome": "Assislicitação",
+        "github": "https://github.com/joaopedrogerotto/Assislicitacao",
+        "tecnologia":[
+            "C#",
+            "JavaScript",
+            "ASP.NET",
+            "CSS",
+            "SQL Server"
+        ]
+    },
+    {
+        "nome": "EletronicStore",
+        "github": "https://github.com/joaopedrogerotto/EletronicStore",
+        "tecnologia":[
+            "C#",
+            "JavaScript",
+            "ASP.NET",
+            "CSS",
+            "SQL Server",
+            "Selenium"
+        ]
+    },
+    {
+        "nome": "Acidentes Aereos",
+        "github": "https://github.com/joaopedrogerotto/ACIDENTES_AEREOS",
+        "tecnologia":[
+            "T-SQL",
+            "SQL Server"
+        ]
+    },
+    {
+        "nome": "Jogo de Xadrez",
+        "github": "https://github.com/joaopedrogerotto/Jogo_de_Xadrez",
+        "tecnologia":[
+            "C++"
+        ]
+    }
+]

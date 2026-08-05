@@ -1,0 +1,69 @@
+.projetos{
+    width: 90%;
+    max-width: 1300px;
+    margin: 120px auto;
+}
+
+#lista-projetos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.card-projeto{
+    width: 360px;
+    padding: 30px;
+    background: rgba(255,255,255,.03);
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-projeto:hover{
+    transform: translateY(-8px);
+    border-color: #5EA8FF;
+    box-shadow: 0 0 30px rgba(94,168,255,.15);
+}
+
+.card-projeto h3{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.tecnologias{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.tecnologias span{
+    padding:8px 15px;
+    border-radius:30px;
+    background:rgba(94,168,255,.12);
+    border:1px solid rgba(94,168,255,.25);
+    color:#5EA8FF;
+    font-size:.85rem;
+    font-weight:600;
+}
+
+.card-projeto a{
+    width:max-content;
+    margin-top:auto;
+    padding:12px 20px;
+    border-radius:10px;
+    border:1px solid #5EA8FF;
+    color:#5EA8FF;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.card-projeto a:hover{
+    background:#5EA8FF;
+    color:#050914;
+}
