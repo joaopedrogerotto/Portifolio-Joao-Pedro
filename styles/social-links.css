@@ -1,0 +1,27 @@
+.social-links{
+    display: flex;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+.social-links a{
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: #BFC7D5;
+    text-decoration: none;
+    font-size: 1.7rem;
+    border:1px solid transparent;
+    transition: all .3s ease;
+}
+
+.social-links a:hover{
+    background: rgba(94,168,255,.12);
+    border: 1px solid #5EA8FF;
+    color: #5EA8FF;
+    transform: translateY(-5px);
+    box-shadow: 0 0 18px rgba(94,168,255,.25);
+}
