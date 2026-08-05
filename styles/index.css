@@ -132,3 +132,70 @@
 .stack-usadas i:nth-child(3){
     transition-delay:.3s;
 }
+
+.stack-usadas h3{
+    grid-column: 1 / -1;
+    font-family: "Space Grotesk", sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    margin: 0;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+
+    .hero{
+        width: 90%;
+        margin: 60px auto;
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+
+
+    .profile{
+        max-width: 100%;
+    }
+
+
+    .profile h1{
+        font-size: 2.5rem;
+    }
+
+
+    .profile h2{
+        font-size: 1.4rem;
+    }
+
+
+    .profile p{
+        font-size: 1rem;
+    }
+
+
+    .stack-usadas{
+        width: 100%;
+        max-width: 350px;
+        padding: 25px;
+
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }
+
+
+    .stack-usadas i{
+        font-size: 45px;
+    }
+
+    .sobre-container h2{
+        font-size:2rem;
+    }
+
+
+    .sobre-container p{
+        font-size:1rem;
+        line-height:1.8;
+        text-align:left;
+    }
+
+}

@@ -140,3 +140,26 @@ body::after{
 .btn-secondary:hover{
     background: rgba(255,255,255,.05);
 }
+
+@media(max-width:400px){
+
+    .hero-buttons{
+        flex-direction:column;
+        width:100%;
+    }
+
+    .btn-primary,
+    .btn-secondary{
+        justify-content:center;
+        width:100%;
+    }
+
+    .list-nav{
+        gap:15px;
+    }
+
+    .list-nav li a{
+        font-size:.8rem;
+    }
+
+}

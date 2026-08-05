@@ -67,3 +67,16 @@
     background:#5EA8FF;
     color:#050914;
 }
+
+@media(max-width:768px){
+
+    .card-projeto{
+        width:100%;
+    }
+
+     .tecnologias span{
+        font-size:.7rem;
+        padding:5px 10px;
+    }
+
+}

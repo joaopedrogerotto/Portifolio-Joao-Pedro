@@ -48,3 +48,92 @@
     color:#BFC7D5;
     line-height:2;
 }
+
+@media (max-width: 768px){
+
+    .hero{
+        width: 90%;
+        margin: 60px auto;
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+
+
+    .profile{
+        max-width: 100%;
+    }
+
+
+    .profile h1{
+        font-size: 2.5rem;
+    }
+
+
+    .profile h2{
+        font-size: 1.4rem;
+    }
+
+
+    .profile p{
+        font-size: 1rem;
+    }
+
+
+    .stack-usadas{
+        width: 100%;
+        max-width: 350px;
+        padding: 25px;
+        grid-template-columns: repeat(3,1fr);
+        gap:20px;
+    }
+
+
+    .stack-usadas i{
+        font-size:45px;
+    }
+
+
+    .card-header{
+        flex-direction: column;
+        gap:15px;
+    }
+
+
+    .card-header > div{
+        max-width:100%;
+    }
+
+     .card-experiencia{
+        padding:25px;
+    }
+
+    .card-header{
+        flex-direction:column;
+        gap:10px;
+        margin-bottom:20px;
+    }
+
+    .card-header h3{
+        font-size:1.4rem;
+    }
+
+    .card-header h4{
+        font-size:1rem;
+    }
+
+    .tempo{
+        font-size:.85rem;
+    }
+
+    .card-experiencia ul{
+        padding-left:18px;
+    }
+
+    .card-experiencia li{
+        font-size:.95rem;
+        line-height:1.7;
+        margin-bottom:12px;
+    }
+
+}

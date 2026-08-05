@@ -25,3 +25,19 @@
     transform: translateY(-5px);
     box-shadow: 0 0 18px rgba(94,168,255,.25);
 }
+
+@media (max-width: 768px){
+
+    .hero{
+        width: 90%;
+        margin: 60px auto;
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .social-links{
+        justify-content: center;
+    }
+
+}
