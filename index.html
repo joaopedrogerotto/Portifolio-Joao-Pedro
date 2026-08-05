@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./styles/experiencia.css">
     <link rel="stylesheet" href="./styles/social-links.css">
     <link rel="stylesheet" href="./styles/card-projetos.css">
+    <link rel="stylesheet" href="./styles/formacao.css">
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="icon" type="image/png" href="./Images/logo-dark-removebg-preview.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
@@ -58,7 +59,7 @@
             </div>
 
             <div class="hero-buttons">
-                <a href="./Curriculo/CURRICULO JOÃO PEDRO GEROTTO FERNANDES.pdf"
+                <a href="./Documents/CURRICULO JOÃO PEDRO GEROTTO FERNANDES.pdf"
                 download
                 class="btn-primary">
                     <i class="fa-solid fa-download"></i>
@@ -90,9 +91,7 @@
     </section>
 
     <section class="sobre-mim hidden" id="sobre">
-
         <div class="sobre-container">
-
             <span class="section-tag">Sobre mim</span>
 
             <p>
@@ -128,12 +127,19 @@
                 os usuários.
             </p>
         </div>
+    </section>
+
+    <section class="projetos" id="projetos">
+
+        <span class="section-tag">Projetos</span>
+
+        <div id="lista-projetos">
+        </div>
 
     </section>
 
     <section class="experiencias hidden" id="experiencias">
         <span class="section-tag">Experiência</span>
-
         <div class="card-experiencia">
             <div class="card-header">
 
@@ -158,7 +164,6 @@
 
         <div class="card-experiencia">
             <div class="card-header">
-
                 <div>
                     <h3>Estagiário Back-End</h3>
                     <h4>PUAH CONSULTORIA E SISTEMAS LTDA</h4>
@@ -178,15 +183,38 @@
         </div>
     </section>
 
-    <section class="projetos" id="projetos">
-
-        <span class="section-tag">Projetos</span>
-
-        <div id="lista-projetos">
+    <section class="formacoes hidden" id="formacoes">
+        <span class="section-tag">Formação</span>
+        <div class="card-formacao">
+            <span class="tipo-formacao">Graduação</span>
+            <div class="card-header">
+                <div>
+                    <h3>Análise e Desenvolvimento de Sistemas</h3>
+                    <h4>FATEC Mogi das Cruzes</h4>
+                </div>
+                <span class="tempo">
+                    2022 - 2025
+                </span>
+            </div>
+                <a href="./Documents/Diploma- Mogi das Cruzes - João Pedro Gerotto Fernandes-Manifesto.pdf" target="_blank" class="btn-diploma">
+                    <i class="fa-solid fa-graduation-cap"></i> Visualizar Diploma
+                </a>
         </div>
 
+        <div class="card-formacao">
+            <span class="tipo-formacao">Pós-graduação</span>
+            <div class="card-header">
+                <div>
+                    <h3>Engenharia de Software</h3>
+                    <h4>Estácio de Sá</h4>
+                </div>
+                <span class="tempo">
+                    2026 - Atualmente
+                </span>
+            </div>
+        </div>
     </section>
-    
+
     <footer class="footer">
         <h3>João Pedro Gerotto Fernandes</h3>
         <p>Desenvolvedor Full-Stack (.NET / C#)</p>
