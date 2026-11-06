@@ -49,5 +49,17 @@
         "tecnologia":[
             "C++"
         ]
+    },
+    {
+        "nome": "Ensily",
+        "github": "https://github.com/joaopedrogerotto/Ensinly",
+        "tecnologia":[
+            "C#",
+            "React",
+            "TypeScript",
+            "ASP.NET",
+            "CSS",
+            "SQL Server"
+        ]
     }
 ]
